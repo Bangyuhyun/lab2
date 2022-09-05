@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-	cout << "Hello, world!" << endl;
+	int num;
+	cin >> num;
+	int count = count_(num);
+	cout << "Hello, world!" << count << " " << endl;
+
 	return 0;
 }
